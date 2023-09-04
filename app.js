@@ -41,7 +41,7 @@ function determineWinner(playerChoice, computerChoice) {
     }
 }
 
-startGameBtn.addEventListener("click", function startGame() {
+startGameBtn.addEventListener("click", () => {
     if (!gameRunning) {
         console.log("Game starting...");
         const playerChoice = playerChoose();
